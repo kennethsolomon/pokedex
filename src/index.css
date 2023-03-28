@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.pokeball-bg{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 100%;
+  right: -10px;
+  bottom: -10px;
+  opacity: .2;
+}
+
+.pokeball-bg:before{
+  content: '';
+  position: absolute;
+  top: 40%;
+  height: 15px;
+  width: 100%;
+  background: #4fd6b8;
+}
+
+.pokeball-bg:after{
+  content: '';
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background: #4fd6b8;
+}
+
+.pokeball-bg-profile{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background: white;
+  border-radius: 100%;
+  right: -45px;
+  bottom: 110px;
+  opacity: .2;
+}
+
+.pokeball-bg-profile:before{
+  content: '';
+  position: absolute;
+  top: 45%;
+  height: 25px;
+  width: 100%;
+  background: #4fd6b8;
+}
+
+.pokeball-bg-profile:after{
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background: #4fd6b8;
+}
+
+.pokeball-bg-profile .circle{
+  position: absolute;
+  right: 40%;
+  top: 40%;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: white;
+}
+
+.c-border-bottom{
+  border-bottom: 2px solid #000;
+}
